@@ -173,9 +173,17 @@ public class HolaMundo {
         caracter = consola.nextLine().charAt(0);
         System.out.println("caracter = " + caracter);
         */
-        String color;
-        color = "Rojo";
-        System.out.println("color = " + color);
-        
+        /*
+        Operadores aritmeticos
+        */
+        int a=3, b=5;
+        var resultado = a + b;
+        System.out.println("resultado de la suma = " + resultado);
+        resultado = a - b;
+        System.out.println("resultado de la resta = " + resultado);
+        resultado = a * b;
+        System.out.println("resultado de la multiplicacion = " + resultado);
+        var resultado2 = 3.0/b;
+        System.out.println("resultado de la division = " + resultado2);
     }
 }
