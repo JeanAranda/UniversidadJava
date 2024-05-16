@@ -176,14 +176,99 @@ public class HolaMundo {
         /*
         Operadores aritmeticos
         */
-        int a=3, b=5;
+        /*
+        int a=3, b=2;
         var resultado = a + b;
         System.out.println("resultado de la suma = " + resultado);
         resultado = a - b;
         System.out.println("resultado de la resta = " + resultado);
         resultado = a * b;
         System.out.println("resultado de la multiplicacion = " + resultado);
-        var resultado2 = 3.0/b;
+        var resultado2 = 3D/b;
         System.out.println("resultado de la division = " + resultado2);
+        resultado = a % b;
+        System.out.println("resultado del residuo  = " + resultado);
+        
+        if (a % 2 == 0)
+            System.out.println("El valor de la variable es par");
+        else
+            System.out.println("El valor de la variable es impar");
+*/
+        /*
+        Operadores de asignacion en JAVA
+        */
+        /*int a=3, b=2;
+        int c=a+5-b;
+        System.out.println("c = " + c);
+        a+=1;
+        System.out.println("a = " + a);
+        a+=3;
+        System.out.println("a = " + a);
+        a-=2;
+        System.out.println("a = " + a);
+        a*=9;
+        System.out.println("a = " + a);
+        a/=3;
+        System.out.println("a = " + a);
+        a%=3;
+        System.out.println("a = " + a);
+        */
+        /*
+        Operaadores unarios
+        */
+        /*
+        var a=3;
+        var b=-a;
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        //Con variables booleanas
+        var c = true;
+        var d = !c; //variable invertida
+        System.out.println("c = " + c);
+        System.out.println("d = " + d);
+        //incremento
+        //1.Preincremento (Elsimbolo antes de la avariable)
+        var e=3;
+        var f=++e;//El valor de la variable "e" se aumenta en 1 antes de ser ejecutada
+        //Por eso su valor al imprimir cambia
+        System.out.println("e = " + e);
+        System.out.println("f = " + f);
+        //2.Postincremento (simbolo despues de la vcariable)
+        var g=5;
+        System.out.println("g normal = " + g);//En esta linea la variable continua con su valor normal
+        var h=g++;//primero se utiliza el valor y despues se incrementa 
+        System.out.println("g postincrementado = " + g);//En esta linea se ejecuta el postincremento
+        System.out.println("h = " + h);
+        //Decremento
+        var i=2;
+        System.out.println("i no decrementada = " + i);
+        var j=--i;
+        System.out.println("i decrementada = " + i);//YA se decremento
+        System.out.println("j = " + j);
+        //Postdecremento
+        var K=4;
+        var L=K--;//Primero se usa el valor de la variable y queda pendiente el decremento
+        System.out.println("k = " + K);//Variable postdecrementada
+        System.out.println("L = " + L);        
+        */
+        /*
+        Operadores de igualdad y Relaciones en JAVA
+        */
+        var a=3;
+        var b=2;
+        
+        var c = (a == b);//Operador de igualdad que valida si son iguales o no (true o false)
+        System.out.println("c = " + c);
+        
+        var d = a!=b;//"a" es diferente de "b", tambien se puede colocar sin parentesis
+        System.out.println("d = " + d);
+        
+        var cadena = "Hola";
+        var cadena2 = "Adios";
+        var e = cadena == cadena2;//Compara referencia de objetos
+        System.out.println("e = " + e);
+        
+        var f=cadena.equals(cadena2);
+        System.out.println("f = " + f);
     }
 }
