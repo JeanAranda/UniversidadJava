@@ -254,6 +254,7 @@ public class HolaMundo {
         /*
         Operadores de igualdad y Relaciones en JAVA
         */
+        
         var a=3;
         var b=2;
         
@@ -268,7 +269,10 @@ public class HolaMundo {
         var e = cadena == cadena2;//Compara referencia de objetos
         System.out.println("e = " + e);
         
-        var f=cadena.equals(cadena2);
+        var f=cadena.equals(cadena2);//El metodo equals nos va ayudar a verificar si las cadenas son iguales en contenido
         System.out.println("f = " + f);
+        //Operadores Relacionales
+        
+        
     }
 }
