@@ -255,7 +255,7 @@ public class HolaMundo {
         Operadores de igualdad y Relaciones en JAVA
         */
         
-        var a=3;
+        /*var a=3;
         var b=2;
         
         var c = (a == b);//Operador de igualdad que valida si son iguales o no (true o false)
@@ -272,7 +272,14 @@ public class HolaMundo {
         var f=cadena.equals(cadena2);//El metodo equals nos va ayudar a verificar si las cadenas son iguales en contenido
         System.out.println("f = " + f);
         //Operadores Relacionales
-        
-        
+        var g = (a>=b);
+        System.out.println("g = " + g);
+        var edad=30;
+        var adulto=18;
+        if (edad >= adulto)
+            System.out.println("Es mayor de edad");
+        else
+            System.out.println("Es tilin");
+*/
     }
 }
