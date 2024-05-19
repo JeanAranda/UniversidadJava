@@ -300,7 +300,7 @@ public class HolaMundo {
             System.out.println("El padre esta ocupado");
         */
         //Operador ternario en JAVA
-        var a = 10;
+        /*var a = 10;
         var b = 15;
         var resultado = (a >= b) ? "El valor de a es mayor" : "El valor de a es menor";
         System.out.println("resultado = " + resultado);
@@ -308,6 +308,8 @@ public class HolaMundo {
         var numero = 7;
         resultado = (numero % 2 == 0) ? "El numero es par" : "El numero es imopar";
         System.out.println("numero = " + resultado);
+        */
+        //Precedencia de operadores en JAVA
         
         
     }
