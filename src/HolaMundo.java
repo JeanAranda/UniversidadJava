@@ -280,6 +280,35 @@ public class HolaMundo {
             System.out.println("Es mayor de edad");
         else
             System.out.println("Es tilin");
-*/
+        */
+        //Operadores condicionales
+        /*var a = 10;
+        var valorMinimo = 0;
+        var valorMaximo = 10;
+        
+        var resultado = a >= valorMinimo && a <= valorMaximo;
+        if (resultado)
+            System.out.println("Dentro del rango");
+        else
+            System.out.println("Fuera de rango");
+        //Operador OR ||
+        var vacaciones = true;
+        var diaDeDescanso = false;
+        if (vacaciones || diaDeDescanso)
+            System.out.println("El padre puede asistir al juego del hijo");
+        else
+            System.out.println("El padre esta ocupado");
+        */
+        //Operador ternario en JAVA
+        var a = 10;
+        var b = 15;
+        var resultado = (a >= b) ? "El valor de a es mayor" : "El valor de a es menor";
+        System.out.println("resultado = " + resultado);
+        
+        var numero = 7;
+        resultado = (numero % 2 == 0) ? "El numero es par" : "El numero es imopar";
+        System.out.println("numero = " + resultado);
+        
+        
     }
 }
