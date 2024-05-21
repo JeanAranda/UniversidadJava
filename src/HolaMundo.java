@@ -322,7 +322,7 @@ public class HolaMundo {
         System.out.println("resultado = " + resultado);
          */
         //Tarea de Rectangulo
-        Scanner consola = new Scanner(System.in);
+        //Scanner consola = new Scanner(System.in);
 //        System.out.println("Escribe el nombre del ancho: ");
 //        var ancho = Integer.parseInt(consola.nextLine());
 //        System.out.println("Escribe el nombre del alto: ");
@@ -339,7 +339,64 @@ public class HolaMundo {
         }else{
             System.out.println("El numero mayor es: "+numero2);
         }
-        */
-        
+         */
+        //Sentencia de control if else
+        /*var condicion = false;
+        if (condicion) //Es lo mismo que colocar (condicion == true)
+        {
+            System.out.println("La condición es verdadera");
+        } else {
+            System.out.println("La condición es falsa");
+        }
+        //otro ejemplo de if else
+        var numero = 4;
+        var numeroTexto = "Numero desconocido";
+        if (numero == 1) {
+            System.out.println("Numero uno");
+        } else if (numero == 2) {
+            System.out.println("Numero dos");
+        } else if (numero == 3) {
+            System.out.println("Numero tres");
+        } else if (numero == 4) {
+            System.out.println("Numero cuatro");
+        } else {
+            numeroTexto = "Numero no encontrado";
+        }
+        //Estaciones del año con if else
+        var mes = 6;
+        var estacion = "Estación desconocida";
+
+        if (mes == 1 || mes == 2 || mes == 12) {
+            estacion = "Invierno";
+        } else if (mes == 3 || mes == 4 || mes == 5) {
+            estacion = "Primavera";
+        }else if(mes==6 || mes==7 || mes==8){
+            estacion = "Verano";
+        }else if(mes==9 || mes==10 || mes==11){
+            estacion = "Otoño";
+        }
+        System.out.println("estacion = " + estacion);
+         */
+        //Control switch en JAVA
+        var numero = 2;
+        var numeroTexto = "Valor desconocido";
+
+        switch (numero) {
+            case 1:
+                numeroTexto = "Numero uno";
+                break;
+            case 2:
+                numeroTexto = "Numero dos";
+                break;
+            case 3:
+                numeroTexto = "Numero tres";
+                break;
+            case 4:
+                numeroTexto = "Numero cuatro";
+                break;
+            default:
+                numeroTexto="Caso no encontrado";
+        }
+        System.out.println("numeroTexto = " + numeroTexto);
     }
 }
