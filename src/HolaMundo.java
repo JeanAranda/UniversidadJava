@@ -172,11 +172,11 @@ public class HolaMundo {
         System.out.println("Proporciona un carcater: ");
         caracter = consola.nextLine().charAt(0);
         System.out.println("caracter = " + caracter);
-        */
-        /*
+         */
+ /*
         Operadores aritmeticos
-        */
-        /*
+         */
+ /*
         int a=3, b=2;
         var resultado = a + b;
         System.out.println("resultado de la suma = " + resultado);
@@ -193,11 +193,11 @@ public class HolaMundo {
             System.out.println("El valor de la variable es par");
         else
             System.out.println("El valor de la variable es impar");
-*/
-        /*
+         */
+ /*
         Operadores de asignacion en JAVA
-        */
-        /*int a=3, b=2;
+         */
+ /*int a=3, b=2;
         int c=a+5-b;
         System.out.println("c = " + c);
         a+=1;
@@ -212,11 +212,11 @@ public class HolaMundo {
         System.out.println("a = " + a);
         a%=3;
         System.out.println("a = " + a);
-        */
-        /*
+         */
+ /*
         Operaadores unarios
-        */
-        /*
+         */
+ /*
         var a=3;
         var b=-a;
         System.out.println("a = " + a);
@@ -250,12 +250,11 @@ public class HolaMundo {
         var L=K--;//Primero se usa el valor de la variable y queda pendiente el decremento
         System.out.println("k = " + K);//Variable postdecrementada
         System.out.println("L = " + L);        
-        */
-        /*
+         */
+ /*
         Operadores de igualdad y Relaciones en JAVA
-        */
-        
-        /*var a=3;
+         */
+ /*var a=3;
         var b=2;
         
         var c = (a == b);//Operador de igualdad que valida si son iguales o no (true o false)
@@ -280,7 +279,7 @@ public class HolaMundo {
             System.out.println("Es mayor de edad");
         else
             System.out.println("Es tilin");
-        */
+         */
         //Operadores condicionales
         /*var a = 10;
         var valorMinimo = 0;
@@ -298,7 +297,7 @@ public class HolaMundo {
             System.out.println("El padre puede asistir al juego del hijo");
         else
             System.out.println("El padre esta ocupado");
-        */
+         */
         //Operador ternario en JAVA
         /*var a = 10;
         var b = 15;
@@ -308,9 +307,39 @@ public class HolaMundo {
         var numero = 7;
         resultado = (numero % 2 == 0) ? "El numero es par" : "El numero es imopar";
         System.out.println("numero = " + resultado);
-        */
+         */
         //Precedencia de operadores en JAVA
+        /*var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
         
+        var resultado = 4+5*6/3;
+        System.out.println("resultado = " + resultado);
+        resultado = (4+5)*6/3;
+        System.out.println("resultado = " + resultado);
+         */
+        //Tarea de Rectangulo
+        Scanner consola = new Scanner(System.in);
+//        System.out.println("Escribe el nombre del ancho: ");
+//        var ancho = Integer.parseInt(consola.nextLine());
+//        System.out.println("Escribe el nombre del alto: ");
+//        var alto = Integer.parseInt(consola.nextLine());
+//        System.out.println("El area del rectangulo es: " + alto * ancho);
+//        System.out.println("El perimetro del rectangulo es: " + (alto + ancho) * 2);
+        //Tarea Imprimir el numero mayor
+        /*System.out.println("Proporciona el primer numero: ");
+        var numero1 = Integer.parseInt(consola.nextLine());
+        System.out.println("Proporciona el segundo numero: ");
+        var numero2 = Integer.parseInt(consola.nextLine());
+        if (numero1 > numero2){
+            System.out.println("El numero mayor es: "+numero1);
+        }else{
+            System.out.println("El numero mayor es: "+numero2);
+        }
+        */
         
     }
 }
