@@ -378,7 +378,7 @@ public class HolaMundo {
         System.out.println("estacion = " + estacion);
          */
         //Control switch en JAVA
-        var numero = 2;
+        /*var numero = 2;
         var numeroTexto = "Valor desconocido";
 
         switch (numero) {
@@ -398,5 +398,56 @@ public class HolaMundo {
                 numeroTexto="Caso no encontrado";
         }
         System.out.println("numeroTexto = " + numeroTexto);
+         */
+        //Estaciones del año con switch
+        /*var mes = 11;
+        var estacion = "Estacion desconocida";
+        
+        switch (mes) {
+            case 1: case 2: case 12:
+                estacion = "Invierno";                
+                break;
+            case 3: case 4: case 5:
+                estacion = "Primavera";
+                break;
+            case 6: case 7: case 8:
+                estacion = "Verano";
+                break;
+            case 9: case 10: case 11:
+                estacion = "Otoño";
+                break;
+        }
+        System.out.println("estacion = " + estacion);
+         */
+//        El objetivo del ejercicio es crear un sistema de calificaciones, como sigue:
+//El usuario proporcionará un valor entre 0 y 10.
+//Si está entre 9 y 10: imprimir una A
+//Si está entre 8 y menor a 9: imprimir una B
+//Si está entre 7 y menor a 8: imprimir una C
+//Si está entre 6 y menor a 7: imprimir una D
+//Si está entre 0 y menor a 6: imprimir una F
+//cualquier otro valor debe imprimir: Valor desconocido
+//Por ejemplo:
+//1.Proporciona un valor entre 0 y 10:
+//2.A
+        Scanner consola = new Scanner(System.in);
+        System.out.println("Proporciona un valor entre 0 y 10");
+
+        int nota = Integer.parseInt(consola.nextLine());
+
+        if (nota >= 0 && nota < 6) {
+            System.out.println("F");
+        } else if (nota == 6 || nota < 7) {
+            System.out.println("D");
+        } else if (nota == 7 || nota < 8) {
+            System.out.println("C");
+        } else if (nota == 8 || nota < 9) {
+            System.out.println("B");
+        } else if (nota == 9 || nota <= 10) {
+            System.out.println("A");
+        } else {
+            System.out.println("Valor desconocido");
+        }
+
     }
 }
